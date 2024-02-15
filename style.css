@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body{
+    font-family: "Source Sans 3", sans-serif;
+    margin:0;
+    padding: 0;
+}
+.header{
+       width: 450px;
+       height: 700px;
+       border: whitesmoke 3px solid;
+       margin: 0 auto;
+       border-radius:  10px;
+       background: white;
+       position: relative;
+
+}
+.container{
+    background: white;
+    width: 100%;
+}
+header{
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color:whitesmoke;
+}
+header img{
+    width: 70px;
+    height: 60px;
+    padding: 15px 10px;
+
+}
+header .profile{
+    border-radius: 50%;
+    float: right;
+}
+.prof_section{
+    display: flex;
+    position: absolute;
+ 
+}
+.prof_section .content{
+width: 70px;
+height: 60px;
+padding: 15px 10px;
+
+
+
+}
+
+ .fullName h6{
+    margin-top:-20px;
+}
+
+.full_image img{
+  width: 100%;
+margin-top:100px;
+  
+}
+.react{
+    display: flex;
+}
+.react img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+span{
+    font-weight: bold;
+}
+.comment h3,p{
+    padding: 0 5px;
+}
